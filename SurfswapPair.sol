@@ -1,12 +1,12 @@
 pragma solidity =0.5.16;
 
-import "./ISurfswapPair.sol";
+import "./interfaces/ISurfswapPair.sol";
 import "./SurfswapERC20.sol";
 import "./Math.sol";
 import "./UQ112x112.sol";
-import "./IERC20.sol";
-import "./ISurfswapFactory.sol";
-import "./ISurfswapCallee.sol";
+import "./interfaces/IERC20.sol";
+import "./interfaces/ISurfswapFactory.sol";
+import "./interfaces/ISurfswapCallee.sol";
 
 contract SurfswapPair is ISurfswapPair, SurfswapERC20 {
     using SafeMath for uint256;

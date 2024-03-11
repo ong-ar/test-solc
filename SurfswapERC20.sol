@@ -1,6 +1,6 @@
 pragma solidity =0.5.16;
 
-import "./ISurfswapERC20.sol";
+import "./interfaces/ISurfswapERC20.sol";
 import "./SafeMath.sol";
 
 contract SurfswapERC20 is ISurfswapERC20 {
